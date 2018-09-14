@@ -1,0 +1,209 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+/*header style*/
+#header{
+    position: relative;
+    padding-top: 5%;
+    padding-bottom: 3%;
+    background-color: #ecd5dc;
+    height: 100%;
+}
+.header-row{
+    padding: 5px;
+    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+.image-col{
+    width: auto;
+    margin: auto;
+    text-align: center;
+}
+#profile-photo{   
+    border-radius: 50%;
+    width: 18em;
+    height: 18em;
+    margin: auto;
+    box-shadow: 0px 1px 10px #f5eaed;
+}
+.about-col{
+    width: 70em;
+    margin: auto;
+    text-align: center;
+}
+.about-me{
+    width: auto;
+    background-color: #ecd5dc;
+    padding: 25PX;
+    margin: auto;
+    text-align: justify;
+    font-family: 'Quattrocento Sans', sans-serif;
+}
+#name{
+    width: auto;
+    text-align: center;
+    font-size-adjust:auto;
+    font-size: 5em;
+    font-family: 'Maven Pro', sans-serif;
+
+}
+.basic-info{
+    background-color: #faf4f6;
+    align-items: center;
+    margin:auto;
+    padding: 5px;
+}
+.row-details{
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Quattrocento Sans', sans-serif;
+}
+.col-detail{
+    margin: auto;
+}
+
+/* style for areas of expertise */
+.areas-of-expertise{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    background-color: #ffffff;
+    padding: 2.5%;
+    position: relative;
+}
+#aoe-header{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 3em;
+}
+.aoe-details{
+    font-family: 'Maven Pro', sans-serif;
+    margin: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+}
+.list-group-aoe{
+    position: relative;
+    margin: auto;
+    border-top: none;
+}
+.list-item-top{
+    border-top: none;
+}
+#aoe-photo{ 
+    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: auto;
+    height: 65vh;
+    box-shadow: 1px 1px 3px black;
+}
+
+/* style for work experience */
+.work-experience{
+    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    background-color: #faf4f6;
+    padding: 50px;
+    position: relative;
+
+}
+.we-header{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;
+    display: block;
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 3em;
+}
+.work-details{
+    width: auto;
+    height: auto;
+}
+.job-list{
+/*    background-color: #ecd5dc;*/
+    margin: auto;
+    text-align: center;
+    width: 35em;
+    height: 45em;
+    margin-left: auto;
+    padding: 15px;
+/*    box-shadow: 1px 2px 8px black;*/
+}
+.list-group-work{;
+    width: 100%;
+    margin: auto;
+    border-top: none;
+}
+.work-list{
+    border: none;
+    font-family: 'Quattrocento Sans', sans-serif;
+    text-align: left;
+    width: 100%;
+    background-color: #faf4f6;
+
+}
+#work-photo{
+    margin: auto;
+    margin-right: auto;
+    width: 45%;
+    height: 50%;
+    display: block;
+    box-shadow: 1px 2px 5px black;
+}
+.job-title, h6{
+    font-family: 'Quattrocento Sans', sans-serif;
+    padding: 10px;
+    margin: auto;
+}
+.job-title{
+    font-size: 24pt;
+    position: relative;
+}
+
+/* style for education */
+.education-and-skills{
+    font-family: 'Quattrocento Sans', sans-serif;
+    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    background-color: #ffffff;
+    padding: 50px;
+    position: relative;
+}
+.education-skills-header{
+    margin: auto;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;
+    display: block;
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 3em;
+}
+.education-details{
+    margin: auto;
+}
+
+/* style for footer */
+footer{
+    margin: auto;
+    height: 50px;
+    position: relative;
+    background-color: #ecd5dc;
+    width: auto;
+    margin: auto;
+}
